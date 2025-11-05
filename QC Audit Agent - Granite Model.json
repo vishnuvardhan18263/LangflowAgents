@@ -1,0 +1,2107 @@
+{
+  "data": {
+    "edges": [
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "OllamaModel",
+            "id": "OllamaModel-ZByLd",
+            "name": "text_output",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "ChatOutput-m4yLJ",
+            "inputTypes": [
+              "Data",
+              "DataFrame",
+              "Message"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__OllamaModel-ZByLd{œdataTypeœ:œOllamaModelœ,œidœ:œOllamaModel-ZByLdœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-m4yLJ{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-m4yLJœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "OllamaModel-ZByLd",
+        "sourceHandle": "{œdataTypeœ:œOllamaModelœ,œidœ:œOllamaModel-ZByLdœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-m4yLJ",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-m4yLJœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ChatOutput",
+            "id": "ChatOutput-m4yLJ",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "TextOutput-OVosl",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__ChatOutput-m4yLJ{œdataTypeœ:œChatOutputœ,œidœ:œChatOutput-m4yLJœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-TextOutput-OVosl{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-OVoslœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "ChatOutput-m4yLJ",
+        "sourceHandle": "{œdataTypeœ:œChatOutputœ,œidœ:œChatOutput-m4yLJœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "TextOutput-OVosl",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-OVoslœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "TextOutput",
+            "id": "TextOutput-OVosl",
+            "name": "text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input",
+            "id": "SaveToFile-zJLTt",
+            "inputTypes": [
+              "Data",
+              "DataFrame",
+              "Message"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__TextOutput-OVosl{œdataTypeœ:œTextOutputœ,œidœ:œTextOutput-OVoslœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-SaveToFile-zJLTt{œfieldNameœ:œinputœ,œidœ:œSaveToFile-zJLTtœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "TextOutput-OVosl",
+        "sourceHandle": "{œdataTypeœ:œTextOutputœ,œidœ:œTextOutput-OVoslœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "SaveToFile-zJLTt",
+        "targetHandle": "{œfieldNameœ:œinputœ,œidœ:œSaveToFile-zJLTtœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "Directory",
+            "id": "Directory-MIIqy",
+            "name": "dataframe",
+            "output_types": [
+              "DataFrame"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "ChatOutput-itP9P",
+            "inputTypes": [
+              "Data",
+              "DataFrame",
+              "Message"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__Directory-MIIqy{œdataTypeœ:œDirectoryœ,œidœ:œDirectory-MIIqyœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-ChatOutput-itP9P{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-itP9Pœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "Directory-MIIqy",
+        "sourceHandle": "{œdataTypeœ:œDirectoryœ,œidœ:œDirectory-MIIqyœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
+        "target": "ChatOutput-itP9P",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-itP9Pœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ChatOutput",
+            "id": "ChatOutput-itP9P",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "TextInput-0TlKA",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__ChatOutput-itP9P{œdataTypeœ:œChatOutputœ,œidœ:œChatOutput-itP9Pœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-TextInput-0TlKA{œfieldNameœ:œinput_valueœ,œidœ:œTextInput-0TlKAœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "ChatOutput-itP9P",
+        "sourceHandle": "{œdataTypeœ:œChatOutputœ,œidœ:œChatOutput-itP9Pœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "TextInput-0TlKA",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œTextInput-0TlKAœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "TextInput",
+            "id": "TextInput-0TlKA",
+            "name": "text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "OllamaModel-ZByLd",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__TextInput-0TlKA{œdataTypeœ:œTextInputœ,œidœ:œTextInput-0TlKAœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-OllamaModel-ZByLd{œfieldNameœ:œinput_valueœ,œidœ:œOllamaModel-ZByLdœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "TextInput-0TlKA",
+        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-0TlKAœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "OllamaModel-ZByLd",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œOllamaModel-ZByLdœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "id": "OllamaModel-ZByLd",
+          "node": {
+            "base_classes": [
+              "LanguageModel",
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Generate text using Ollama Local LLMs.",
+            "display_name": "Ollama",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "base_url",
+              "model_name",
+              "temperature",
+              "format",
+              "metadata",
+              "mirostat",
+              "mirostat_eta",
+              "mirostat_tau",
+              "num_ctx",
+              "num_gpu",
+              "num_thread",
+              "repeat_last_n",
+              "repeat_penalty",
+              "tfs_z",
+              "timeout",
+              "top_k",
+              "top_p",
+              "verbose",
+              "tags",
+              "stop_tokens",
+              "system",
+              "tool_model_enabled",
+              "template",
+              "input_value",
+              "system_message",
+              "stream"
+            ],
+            "frozen": false,
+            "icon": "Ollama",
+            "last_updated": "2025-11-03T09:13:52.031Z",
+            "legacy": false,
+            "lf_version": "1.5.0",
+            "metadata": {
+              "keywords": [
+                "model",
+                "llm",
+                "language model",
+                "large language model"
+              ]
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Model Response",
+                "group_outputs": false,
+                "method": "text_response",
+                "name": "text_output",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Language Model",
+                "group_outputs": false,
+                "method": "build_model",
+                "name": "model_output",
+                "options": null,
+                "required_inputs": null,
+                "selected": "LanguageModel",
+                "tool_mode": true,
+                "types": [
+                  "LanguageModel"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "base_url": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Base URL",
+                "dynamic": false,
+                "info": "Endpoint of the Ollama API.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "base_url",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "http://localhost:11434"
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "import asyncio\nfrom typing import Any\nfrom urllib.parse import urljoin\n\nimport httpx\nfrom langchain_ollama import ChatOllama\n\nfrom langflow.base.models.model import LCModelComponent\nfrom langflow.base.models.ollama_constants import URL_LIST\nfrom langflow.field_typing import LanguageModel\nfrom langflow.field_typing.range_spec import RangeSpec\nfrom langflow.io import BoolInput, DictInput, DropdownInput, FloatInput, IntInput, MessageTextInput, SliderInput\nfrom langflow.logging import logger\n\nHTTP_STATUS_OK = 200\n\n\nclass ChatOllamaComponent(LCModelComponent):\n    display_name = \"Ollama\"\n    description = \"Generate text using Ollama Local LLMs.\"\n    icon = \"Ollama\"\n    name = \"OllamaModel\"\n\n    # Define constants for JSON keys\n    JSON_MODELS_KEY = \"models\"\n    JSON_NAME_KEY = \"name\"\n    JSON_CAPABILITIES_KEY = \"capabilities\"\n    DESIRED_CAPABILITY = \"completion\"\n    TOOL_CALLING_CAPABILITY = \"tools\"\n\n    inputs = [\n        MessageTextInput(\n            name=\"base_url\",\n            display_name=\"Base URL\",\n            info=\"Endpoint of the Ollama API.\",\n            value=\"\",\n        ),\n        DropdownInput(\n            name=\"model_name\",\n            display_name=\"Model Name\",\n            options=[],\n            info=\"Refer to https://ollama.com/library for more models.\",\n            refresh_button=True,\n            real_time_refresh=True,\n        ),\n        SliderInput(\n            name=\"temperature\",\n            display_name=\"Temperature\",\n            value=0.1,\n            range_spec=RangeSpec(min=0, max=1, step=0.01),\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"format\", display_name=\"Format\", info=\"Specify the format of the output (e.g., json).\", advanced=True\n        ),\n        DictInput(name=\"metadata\", display_name=\"Metadata\", info=\"Metadata to add to the run trace.\", advanced=True),\n        DropdownInput(\n            name=\"mirostat\",\n            display_name=\"Mirostat\",\n            options=[\"Disabled\", \"Mirostat\", \"Mirostat 2.0\"],\n            info=\"Enable/disable Mirostat sampling for controlling perplexity.\",\n            value=\"Disabled\",\n            advanced=True,\n            real_time_refresh=True,\n        ),\n        FloatInput(\n            name=\"mirostat_eta\",\n            display_name=\"Mirostat Eta\",\n            info=\"Learning rate for Mirostat algorithm. (Default: 0.1)\",\n            advanced=True,\n        ),\n        FloatInput(\n            name=\"mirostat_tau\",\n            display_name=\"Mirostat Tau\",\n            info=\"Controls the balance between coherence and diversity of the output. (Default: 5.0)\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"num_ctx\",\n            display_name=\"Context Window Size\",\n            info=\"Size of the context window for generating tokens. (Default: 2048)\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"num_gpu\",\n            display_name=\"Number of GPUs\",\n            info=\"Number of GPUs to use for computation. (Default: 1 on macOS, 0 to disable)\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"num_thread\",\n            display_name=\"Number of Threads\",\n            info=\"Number of threads to use during computation. (Default: detected for optimal performance)\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"repeat_last_n\",\n            display_name=\"Repeat Last N\",\n            info=\"How far back the model looks to prevent repetition. (Default: 64, 0 = disabled, -1 = num_ctx)\",\n            advanced=True,\n        ),\n        FloatInput(\n            name=\"repeat_penalty\",\n            display_name=\"Repeat Penalty\",\n            info=\"Penalty for repetitions in generated text. (Default: 1.1)\",\n            advanced=True,\n        ),\n        FloatInput(name=\"tfs_z\", display_name=\"TFS Z\", info=\"Tail free sampling value. (Default: 1)\", advanced=True),\n        IntInput(name=\"timeout\", display_name=\"Timeout\", info=\"Timeout for the request stream.\", advanced=True),\n        IntInput(\n            name=\"top_k\", display_name=\"Top K\", info=\"Limits token selection to top K. (Default: 40)\", advanced=True\n        ),\n        FloatInput(name=\"top_p\", display_name=\"Top P\", info=\"Works together with top-k. (Default: 0.9)\", advanced=True),\n        BoolInput(name=\"verbose\", display_name=\"Verbose\", info=\"Whether to print out response text.\", advanced=True),\n        MessageTextInput(\n            name=\"tags\",\n            display_name=\"Tags\",\n            info=\"Comma-separated list of tags to add to the run trace.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"stop_tokens\",\n            display_name=\"Stop Tokens\",\n            info=\"Comma-separated list of tokens to signal the model to stop generating text.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"system\", display_name=\"System\", info=\"System to use for generating text.\", advanced=True\n        ),\n        BoolInput(\n            name=\"tool_model_enabled\",\n            display_name=\"Tool Model Enabled\",\n            info=\"Whether to enable tool calling in the model.\",\n            value=True,\n            real_time_refresh=True,\n        ),\n        MessageTextInput(\n            name=\"template\", display_name=\"Template\", info=\"Template to use for generating text.\", advanced=True\n        ),\n        *LCModelComponent._base_inputs,\n    ]\n\n    def build_model(self) -> LanguageModel:  # type: ignore[type-var]\n        # Mapping mirostat settings to their corresponding values\n        mirostat_options = {\"Mirostat\": 1, \"Mirostat 2.0\": 2}\n\n        # Default to 0 for 'Disabled'\n        mirostat_value = mirostat_options.get(self.mirostat, 0)\n\n        # Set mirostat_eta and mirostat_tau to None if mirostat is disabled\n        if mirostat_value == 0:\n            mirostat_eta = None\n            mirostat_tau = None\n        else:\n            mirostat_eta = self.mirostat_eta\n            mirostat_tau = self.mirostat_tau\n\n        # Mapping system settings to their corresponding values\n        llm_params = {\n            \"base_url\": self.base_url,\n            \"model\": self.model_name,\n            \"mirostat\": mirostat_value,\n            \"format\": self.format,\n            \"metadata\": self.metadata,\n            \"tags\": self.tags.split(\",\") if self.tags else None,\n            \"mirostat_eta\": mirostat_eta,\n            \"mirostat_tau\": mirostat_tau,\n            \"num_ctx\": self.num_ctx or None,\n            \"num_gpu\": self.num_gpu or None,\n            \"num_thread\": self.num_thread or None,\n            \"repeat_last_n\": self.repeat_last_n or None,\n            \"repeat_penalty\": self.repeat_penalty or None,\n            \"temperature\": self.temperature or None,\n            \"stop\": self.stop_tokens.split(\",\") if self.stop_tokens else None,\n            \"system\": self.system,\n            \"tfs_z\": self.tfs_z or None,\n            \"timeout\": self.timeout or None,\n            \"top_k\": self.top_k or None,\n            \"top_p\": self.top_p or None,\n            \"verbose\": self.verbose,\n            \"template\": self.template,\n        }\n\n        # Remove parameters with None values\n        llm_params = {k: v for k, v in llm_params.items() if v is not None}\n\n        try:\n            output = ChatOllama(**llm_params)\n        except Exception as e:\n            msg = (\n                \"Unable to connect to the Ollama API. \",\n                \"Please verify the base URL, ensure the relevant Ollama model is pulled, and try again.\",\n            )\n            raise ValueError(msg) from e\n\n        return output\n\n    async def is_valid_ollama_url(self, url: str) -> bool:\n        try:\n            async with httpx.AsyncClient() as client:\n                return (await client.get(urljoin(url, \"api/tags\"))).status_code == HTTP_STATUS_OK\n        except httpx.RequestError:\n            return False\n\n    async def update_build_config(self, build_config: dict, field_value: Any, field_name: str | None = None):\n        if field_name == \"mirostat\":\n            if field_value == \"Disabled\":\n                build_config[\"mirostat_eta\"][\"advanced\"] = True\n                build_config[\"mirostat_tau\"][\"advanced\"] = True\n                build_config[\"mirostat_eta\"][\"value\"] = None\n                build_config[\"mirostat_tau\"][\"value\"] = None\n\n            else:\n                build_config[\"mirostat_eta\"][\"advanced\"] = False\n                build_config[\"mirostat_tau\"][\"advanced\"] = False\n\n                if field_value == \"Mirostat 2.0\":\n                    build_config[\"mirostat_eta\"][\"value\"] = 0.2\n                    build_config[\"mirostat_tau\"][\"value\"] = 10\n                else:\n                    build_config[\"mirostat_eta\"][\"value\"] = 0.1\n                    build_config[\"mirostat_tau\"][\"value\"] = 5\n\n        if field_name in {\"base_url\", \"model_name\"}:\n            if build_config[\"base_url\"].get(\"load_from_db\", False):\n                base_url_value = await self.get_variables(build_config[\"base_url\"].get(\"value\", \"\"), \"base_url\")\n            else:\n                base_url_value = build_config[\"base_url\"].get(\"value\", \"\")\n\n            if not await self.is_valid_ollama_url(base_url_value):\n                # Check if any URL in the list is valid\n                valid_url = \"\"\n                check_urls = URL_LIST\n                if self.base_url:\n                    check_urls = [self.base_url, *URL_LIST]\n                for url in check_urls:\n                    if await self.is_valid_ollama_url(url):\n                        valid_url = url\n                        break\n                if valid_url != \"\":\n                    build_config[\"base_url\"][\"value\"] = valid_url\n                else:\n                    msg = \"No valid Ollama URL found.\"\n                    raise ValueError(msg)\n        if field_name in {\"model_name\", \"base_url\", \"tool_model_enabled\"}:\n            if await self.is_valid_ollama_url(self.base_url):\n                tool_model_enabled = build_config[\"tool_model_enabled\"].get(\"value\", False) or self.tool_model_enabled\n                build_config[\"model_name\"][\"options\"] = await self.get_models(self.base_url, tool_model_enabled)\n            elif await self.is_valid_ollama_url(build_config[\"base_url\"].get(\"value\", \"\")):\n                tool_model_enabled = build_config[\"tool_model_enabled\"].get(\"value\", False) or self.tool_model_enabled\n                build_config[\"model_name\"][\"options\"] = await self.get_models(\n                    build_config[\"base_url\"].get(\"value\", \"\"), tool_model_enabled\n                )\n            else:\n                build_config[\"model_name\"][\"options\"] = []\n        if field_name == \"keep_alive_flag\":\n            if field_value == \"Keep\":\n                build_config[\"keep_alive\"][\"value\"] = \"-1\"\n                build_config[\"keep_alive\"][\"advanced\"] = True\n            elif field_value == \"Immediately\":\n                build_config[\"keep_alive\"][\"value\"] = \"0\"\n                build_config[\"keep_alive\"][\"advanced\"] = True\n            else:\n                build_config[\"keep_alive\"][\"advanced\"] = False\n\n        return build_config\n\n    async def get_models(self, base_url_value: str, tool_model_enabled: bool | None = None) -> list[str]:\n        \"\"\"Fetches a list of models from the Ollama API that do not have the \"embedding\" capability.\n\n        Args:\n            base_url_value (str): The base URL of the Ollama API.\n            tool_model_enabled (bool | None, optional): If True, filters the models further to include\n                only those that support tool calling. Defaults to None.\n\n        Returns:\n            list[str]: A list of model names that do not have the \"embedding\" capability. If\n                `tool_model_enabled` is True, only models supporting tool calling are included.\n\n        Raises:\n            ValueError: If there is an issue with the API request or response, or if the model\n                names cannot be retrieved.\n        \"\"\"\n        try:\n            # Normalize the base URL to avoid the repeated \"/\" at the end\n            base_url = base_url_value.rstrip(\"/\") + \"/\"\n\n            # Ollama REST API to return models\n            tags_url = urljoin(base_url, \"api/tags\")\n\n            # Ollama REST API to return model capabilities\n            show_url = urljoin(base_url, \"api/show\")\n\n            async with httpx.AsyncClient() as client:\n                # Fetch available models\n                tags_response = await client.get(tags_url)\n                tags_response.raise_for_status()\n                models = tags_response.json()\n                if asyncio.iscoroutine(models):\n                    models = await models\n                logger.debug(f\"Available models: {models}\")\n\n                # Filter models that are NOT embedding models\n                model_ids = []\n                for model in models[self.JSON_MODELS_KEY]:\n                    model_name = model[self.JSON_NAME_KEY]\n                    logger.debug(f\"Checking model: {model_name}\")\n\n                    payload = {\"model\": model_name}\n                    show_response = await client.post(show_url, json=payload)\n                    show_response.raise_for_status()\n                    json_data = show_response.json()\n                    if asyncio.iscoroutine(json_data):\n                        json_data = await json_data\n                    capabilities = json_data.get(self.JSON_CAPABILITIES_KEY, [])\n                    logger.debug(f\"Model: {model_name}, Capabilities: {capabilities}\")\n\n                    if self.DESIRED_CAPABILITY in capabilities and (\n                        not tool_model_enabled or self.TOOL_CALLING_CAPABILITY in capabilities\n                    ):\n                        model_ids.append(model_name)\n\n        except (httpx.RequestError, ValueError) as e:\n            msg = \"Could not get model names from Ollama.\"\n            raise ValueError(msg) from e\n\n        return model_ids\n"
+              },
+              "format": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Format",
+                "dynamic": false,
+                "info": "Specify the format of the output (e.g., json).",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "format",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "input_value": {
+                "_input_type": "MessageInput",
+                "advanced": false,
+                "display_name": "Input",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "input_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "metadata": {
+                "_input_type": "DictInput",
+                "advanced": true,
+                "display_name": "Metadata",
+                "dynamic": false,
+                "info": "Metadata to add to the run trace.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "metadata",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "type": "dict",
+                "value": {}
+              },
+              "mirostat": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Mirostat",
+                "dynamic": false,
+                "info": "Enable/disable Mirostat sampling for controlling perplexity.",
+                "name": "mirostat",
+                "options": [
+                  "Disabled",
+                  "Mirostat",
+                  "Mirostat 2.0"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "Disabled"
+              },
+              "mirostat_eta": {
+                "_input_type": "FloatInput",
+                "advanced": true,
+                "display_name": "Mirostat Eta",
+                "dynamic": false,
+                "info": "Learning rate for Mirostat algorithm. (Default: 0.1)",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "mirostat_eta",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "float",
+                "value": ""
+              },
+              "mirostat_tau": {
+                "_input_type": "FloatInput",
+                "advanced": true,
+                "display_name": "Mirostat Tau",
+                "dynamic": false,
+                "info": "Controls the balance between coherence and diversity of the output. (Default: 5.0)",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "mirostat_tau",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "float",
+                "value": ""
+              },
+              "model_name": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Model Name",
+                "dynamic": false,
+                "info": "Refer to https://ollama.com/library for more models.",
+                "name": "model_name",
+                "options": [
+                  "granite4:micro"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "real_time_refresh": true,
+                "refresh_button": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "granite4:micro"
+              },
+              "num_ctx": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Context Window Size",
+                "dynamic": false,
+                "info": "Size of the context window for generating tokens. (Default: 2048)",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "num_ctx",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": ""
+              },
+              "num_gpu": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Number of GPUs",
+                "dynamic": false,
+                "info": "Number of GPUs to use for computation. (Default: 1 on macOS, 0 to disable)",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "num_gpu",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": ""
+              },
+              "num_thread": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Number of Threads",
+                "dynamic": false,
+                "info": "Number of threads to use during computation. (Default: detected for optimal performance)",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "num_thread",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": ""
+              },
+              "repeat_last_n": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Repeat Last N",
+                "dynamic": false,
+                "info": "How far back the model looks to prevent repetition. (Default: 64, 0 = disabled, -1 = num_ctx)",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "repeat_last_n",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": ""
+              },
+              "repeat_penalty": {
+                "_input_type": "FloatInput",
+                "advanced": true,
+                "display_name": "Repeat Penalty",
+                "dynamic": false,
+                "info": "Penalty for repetitions in generated text. (Default: 1.1)",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "repeat_penalty",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "float",
+                "value": ""
+              },
+              "stop_tokens": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Stop Tokens",
+                "dynamic": false,
+                "info": "Comma-separated list of tokens to signal the model to stop generating text.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "stop_tokens",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "stream": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Stream",
+                "dynamic": false,
+                "info": "Stream the response from the model. Streaming works only in Chat.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "stream",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "system": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "System",
+                "dynamic": false,
+                "info": "System to use for generating text.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "system",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "system_message": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "System Message",
+                "dynamic": false,
+                "info": "System message to pass to the model.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "system_message",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "You are an Quality Audit Agent, based on the passed conversation process the below\n1. Generate the output in the form of 3 columns with Parameters, score and weightage in each columns\n2. score should be determined based on the Conversation provided\n\n{\n  \"auditItems\": [\n    {\n      \"parameter\": \"Used positive confident language to build rapport with callers\",\n      \"score\": \"\" ,\n      \"weightage\": 12\n    },\n    {\n      \"parameter\": \"Used proper rate and volume of speech (No usage of fillers)\",\n      \"score\": \"\",\n      \"weightage\": 10\n    },\n    {\n      \"parameter\": \"Use of proper grammar, punctuations, spacing, capitalization, sentence formation\",\n      \"score\": \"\",\n      \"weightage\": 10\n    },\n    {\n      \"parameter\": \"Demonstrated active listening, and appropriate empathy throughout the interaction\",\n      \"score\": \"\",\n      \"weightage\": 12\n    },\n    {\n      \"parameter\": \"Used professional language and avoid negative statements; followed proper hold technique\",\n      \"score\": \"\",\n      \"weightage\": 10\n    },\n    {\n      \"parameter\": \"Intentionally releasing the call\",\n      \"score\": \"\",\n      \"weightage\": 8\n    },\n    {\n      \"parameter\": \"Usage of proper Work notes - first time Case handling and follow up notes\",\n      \"score\": \"\",\n      \"weightage\": 8\n    },\n    {\n      \"parameter\": \"Using proper grammar, punctuations and capitalizations\",\n      \"score\": \"\",\n      \"weightage\": 7\n    },\n    {\n      \"parameter\": \"Provided the complete and accurate resolution to the employee\",\n      \"score\": \"\",\n      \"weightage\": 10\n    },\n    {\n      \"parameter\": \"Probed effectively to reach the correct resolution\",\n      \"score\": \"\",\n      \"weightage\": 8\n    },\n    {\n      \"parameter\": \"Information updated accurately (e.g. Phone Transcripts, contact details)\",\n      \"score\": \"\",\n      \"weightage\": 5\n    }\n  ]\n}"
+              },
+              "tags": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Tags",
+                "dynamic": false,
+                "info": "Comma-separated list of tags to add to the run trace.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "tags",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "temperature": {
+                "_input_type": "SliderInput",
+                "advanced": true,
+                "display_name": "Temperature",
+                "dynamic": false,
+                "info": "",
+                "max_label": "",
+                "max_label_icon": "",
+                "min_label": "",
+                "min_label_icon": "",
+                "name": "temperature",
+                "placeholder": "",
+                "range_spec": {
+                  "max": 1,
+                  "min": 0,
+                  "step": 0.01,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "slider_buttons": false,
+                "slider_buttons_options": [],
+                "slider_input": false,
+                "title_case": false,
+                "tool_mode": false,
+                "type": "slider",
+                "value": 0.1
+              },
+              "template": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Template",
+                "dynamic": false,
+                "info": "Template to use for generating text.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "template",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "tfs_z": {
+                "_input_type": "FloatInput",
+                "advanced": true,
+                "display_name": "TFS Z",
+                "dynamic": false,
+                "info": "Tail free sampling value. (Default: 1)",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "tfs_z",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "float",
+                "value": ""
+              },
+              "timeout": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Timeout",
+                "dynamic": false,
+                "info": "Timeout for the request stream.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "timeout",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": ""
+              },
+              "tool_model_enabled": {
+                "_input_type": "BoolInput",
+                "advanced": false,
+                "display_name": "Tool Model Enabled",
+                "dynamic": false,
+                "info": "Whether to enable tool calling in the model.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "tool_model_enabled",
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "top_k": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Top K",
+                "dynamic": false,
+                "info": "Limits token selection to top K. (Default: 40)",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "top_k",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": ""
+              },
+              "top_p": {
+                "_input_type": "FloatInput",
+                "advanced": true,
+                "display_name": "Top P",
+                "dynamic": false,
+                "info": "Works together with top-k. (Default: 0.9)",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "top_p",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "float",
+                "value": ""
+              },
+              "verbose": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Verbose",
+                "dynamic": false,
+                "info": "Whether to print out response text.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "verbose",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              }
+            },
+            "tool_mode": false
+          },
+          "selected_output": "text_output",
+          "showNode": true,
+          "type": "OllamaModel"
+        },
+        "dragging": false,
+        "id": "OllamaModel-ZByLd",
+        "measured": {
+          "height": 493,
+          "width": 320
+        },
+        "position": {
+          "x": 0.6909630012666099,
+          "y": -1322.7303209245417
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ChatOutput-m4yLJ",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Display a chat message in the Playground.",
+            "display_name": "Chat Output",
+            "documentation": "https://docs.langflow.org/components-io#chat-output",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "should_store_message",
+              "sender",
+              "sender_name",
+              "session_id",
+              "data_template",
+              "background_color",
+              "chat_icon",
+              "text_color",
+              "clean_data"
+            ],
+            "frozen": false,
+            "icon": "MessagesSquare",
+            "legacy": false,
+            "lf_version": "1.5.0",
+            "metadata": {},
+            "minimized": true,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Message",
+                "group_outputs": false,
+                "method": "message_response",
+                "name": "message",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "background_color": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Background Color",
+                "dynamic": false,
+                "info": "The background color of the icon.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "background_color",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "chat_icon": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Icon",
+                "dynamic": false,
+                "info": "The icon of the message.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "chat_icon",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "clean_data": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Basic Clean Data",
+                "dynamic": false,
+                "info": "Whether to clean the data",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "clean_data",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from collections.abc import Generator\nfrom typing import Any\n\nimport orjson\nfrom fastapi.encoders import jsonable_encoder\n\nfrom langflow.base.io.chat import ChatComponent\nfrom langflow.helpers.data import safe_convert\nfrom langflow.inputs.inputs import BoolInput, DropdownInput, HandleInput, MessageTextInput\nfrom langflow.schema.data import Data\nfrom langflow.schema.dataframe import DataFrame\nfrom langflow.schema.message import Message\nfrom langflow.schema.properties import Source\nfrom langflow.template.field.base import Output\nfrom langflow.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_AI,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatOutput(ChatComponent):\n    display_name = \"Chat Output\"\n    description = \"Display a chat message in the Playground.\"\n    documentation: str = \"https://docs.langflow.org/components-io#chat-output\"\n    icon = \"MessagesSquare\"\n    name = \"ChatOutput\"\n    minimized = True\n\n    inputs = [\n        HandleInput(\n            name=\"input_value\",\n            display_name=\"Inputs\",\n            info=\"Message to be passed as output.\",\n            input_types=[\"Data\", \"DataFrame\", \"Message\"],\n            required=True,\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_AI,\n            advanced=True,\n            info=\"Type of sender.\",\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_AI,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"data_template\",\n            display_name=\"Data Template\",\n            value=\"{text}\",\n            advanced=True,\n            info=\"Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.\",\n        ),\n        MessageTextInput(\n            name=\"background_color\",\n            display_name=\"Background Color\",\n            info=\"The background color of the icon.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"chat_icon\",\n            display_name=\"Icon\",\n            info=\"The icon of the message.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"text_color\",\n            display_name=\"Text Color\",\n            info=\"The text color of the name\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"clean_data\",\n            display_name=\"Basic Clean Data\",\n            value=True,\n            info=\"Whether to clean the data\",\n            advanced=True,\n        ),\n    ]\n    outputs = [\n        Output(\n            display_name=\"Output Message\",\n            name=\"message\",\n            method=\"message_response\",\n        ),\n    ]\n\n    def _build_source(self, id_: str | None, display_name: str | None, source: str | None) -> Source:\n        source_dict = {}\n        if id_:\n            source_dict[\"id\"] = id_\n        if display_name:\n            source_dict[\"display_name\"] = display_name\n        if source:\n            # Handle case where source is a ChatOpenAI object\n            if hasattr(source, \"model_name\"):\n                source_dict[\"source\"] = source.model_name\n            elif hasattr(source, \"model\"):\n                source_dict[\"source\"] = str(source.model)\n            else:\n                source_dict[\"source\"] = str(source)\n        return Source(**source_dict)\n\n    async def message_response(self) -> Message:\n        # First convert the input to string if needed\n        text = self.convert_to_string()\n\n        # Get source properties\n        source, icon, display_name, source_id = self.get_properties_from_source_component()\n        background_color = self.background_color\n        text_color = self.text_color\n        if self.chat_icon:\n            icon = self.chat_icon\n\n        # Create or use existing Message object\n        if isinstance(self.input_value, Message):\n            message = self.input_value\n            # Update message properties\n            message.text = text\n        else:\n            message = Message(text=text)\n\n        # Set message properties\n        message.sender = self.sender\n        message.sender_name = self.sender_name\n        message.session_id = self.session_id\n        message.flow_id = self.graph.flow_id if hasattr(self, \"graph\") else None\n        message.properties.source = self._build_source(source_id, display_name, source)\n        message.properties.icon = icon\n        message.properties.background_color = background_color\n        message.properties.text_color = text_color\n\n        # Store message if needed\n        if self.session_id and self.should_store_message:\n            stored_message = await self.send_message(message)\n            self.message.value = stored_message\n            message = stored_message\n\n        self.status = message\n        return message\n\n    def _serialize_data(self, data: Data) -> str:\n        \"\"\"Serialize Data object to JSON string.\"\"\"\n        # Convert data.data to JSON-serializable format\n        serializable_data = jsonable_encoder(data.data)\n        # Serialize with orjson, enabling pretty printing with indentation\n        json_bytes = orjson.dumps(serializable_data, option=orjson.OPT_INDENT_2)\n        # Convert bytes to string and wrap in Markdown code blocks\n        return \"```json\\n\" + json_bytes.decode(\"utf-8\") + \"\\n```\"\n\n    def _validate_input(self) -> None:\n        \"\"\"Validate the input data and raise ValueError if invalid.\"\"\"\n        if self.input_value is None:\n            msg = \"Input data cannot be None\"\n            raise ValueError(msg)\n        if isinstance(self.input_value, list) and not all(\n            isinstance(item, Message | Data | DataFrame | str) for item in self.input_value\n        ):\n            invalid_types = [\n                type(item).__name__\n                for item in self.input_value\n                if not isinstance(item, Message | Data | DataFrame | str)\n            ]\n            msg = f\"Expected Data or DataFrame or Message or str, got {invalid_types}\"\n            raise TypeError(msg)\n        if not isinstance(\n            self.input_value,\n            Message | Data | DataFrame | str | list | Generator | type(None),\n        ):\n            type_name = type(self.input_value).__name__\n            msg = f\"Expected Data or DataFrame or Message or str, Generator or None, got {type_name}\"\n            raise TypeError(msg)\n\n    def convert_to_string(self) -> str | Generator[Any, None, None]:\n        \"\"\"Convert input data to string with proper error handling.\"\"\"\n        self._validate_input()\n        if isinstance(self.input_value, list):\n            return \"\\n\".join([safe_convert(item, clean_data=self.clean_data) for item in self.input_value])\n        if isinstance(self.input_value, Generator):\n            return self.input_value\n        return safe_convert(self.input_value)\n"
+              },
+              "data_template": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Data Template",
+                "dynamic": false,
+                "info": "Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "data_template",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "{text}"
+              },
+              "input_value": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Inputs",
+                "dynamic": false,
+                "info": "Message to be passed as output.",
+                "input_types": [
+                  "Data",
+                  "DataFrame",
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "input_value",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "sender": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Sender Type",
+                "dynamic": false,
+                "info": "Type of sender.",
+                "name": "sender",
+                "options": [
+                  "Machine",
+                  "User"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "Machine"
+              },
+              "sender_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Sender Name",
+                "dynamic": false,
+                "info": "Name of the sender.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sender_name",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "AI"
+              },
+              "session_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Session ID",
+                "dynamic": false,
+                "info": "The session ID of the chat. If empty, the current session ID parameter will be used.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "session_id",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "should_store_message": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Store Messages",
+                "dynamic": false,
+                "info": "Store the message in the history.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "should_store_message",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "text_color": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Text Color",
+                "dynamic": false,
+                "info": "The text color of the name",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "text_color",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": false,
+          "type": "ChatOutput"
+        },
+        "dragging": false,
+        "id": "ChatOutput-m4yLJ",
+        "measured": {
+          "height": 48,
+          "width": 192
+        },
+        "position": {
+          "x": 405.3623259394757,
+          "y": -1276.3329679332678
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "TextInput-0TlKA",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Get user text inputs.",
+            "display_name": "Text Input",
+            "documentation": "https://docs.langflow.org/components-io#text-input",
+            "edited": false,
+            "field_order": [
+              "input_value"
+            ],
+            "frozen": false,
+            "icon": "type",
+            "legacy": false,
+            "lf_version": "1.5.0",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Text",
+                "group_outputs": false,
+                "method": "text_response",
+                "name": "text",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.io.text import TextComponent\nfrom langflow.io import MultilineInput, Output\nfrom langflow.schema.message import Message\n\n\nclass TextInputComponent(TextComponent):\n    display_name = \"Text Input\"\n    description = \"Get user text inputs.\"\n    documentation: str = \"https://docs.langflow.org/components-io#text-input\"\n    icon = \"type\"\n    name = \"TextInput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            info=\"Text to be passed as input.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        return Message(\n            text=self.input_value,\n        )\n"
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "Text",
+                "dynamic": false,
+                "info": "Text to be passed as input.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "Tell me about Capabilities of Granite 4.0 Mini in terms of invoice processing"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "TextInput"
+        },
+        "dragging": false,
+        "id": "TextInput-0TlKA",
+        "measured": {
+          "height": 204,
+          "width": 320
+        },
+        "position": {
+          "x": -394.85238094133445,
+          "y": -1500.368786605624
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "TextOutput-OVosl",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Sends text output via API.",
+            "display_name": "Text Output",
+            "documentation": "https://docs.langflow.org/components-io#text-output",
+            "edited": false,
+            "field_order": [
+              "input_value"
+            ],
+            "frozen": false,
+            "icon": "type",
+            "legacy": false,
+            "lf_version": "1.5.0",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Text",
+                "group_outputs": false,
+                "method": "text_response",
+                "name": "text",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.io.text import TextComponent\nfrom langflow.io import MultilineInput, Output\nfrom langflow.schema.message import Message\n\n\nclass TextOutputComponent(TextComponent):\n    display_name = \"Text Output\"\n    description = \"Sends text output via API.\"\n    documentation: str = \"https://docs.langflow.org/components-io#text-output\"\n    icon = \"type\"\n    name = \"TextOutput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Inputs\",\n            info=\"Text to be passed as output.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        message = Message(\n            text=self.input_value,\n        )\n        self.status = self.input_value\n        return message\n"
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "Inputs",
+                "dynamic": false,
+                "info": "Text to be passed as output.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "TextOutput"
+        },
+        "dragging": false,
+        "id": "TextOutput-OVosl",
+        "measured": {
+          "height": 204,
+          "width": 320
+        },
+        "position": {
+          "x": 638.8539998073436,
+          "y": -1096.4699903810467
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "SaveToFile-zJLTt",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Save data to a local file in the selected format.",
+            "display_name": "Save File",
+            "documentation": "https://docs.langflow.org/components-processing#save-file",
+            "edited": false,
+            "field_order": [
+              "input",
+              "file_name",
+              "file_format"
+            ],
+            "frozen": false,
+            "icon": "save",
+            "legacy": false,
+            "lf_version": "1.5.0",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "File Path",
+                "group_outputs": false,
+                "hidden": null,
+                "method": "save_to_file",
+                "name": "result",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "import json\nfrom collections.abc import AsyncIterator, Iterator\nfrom pathlib import Path\n\nimport orjson\nimport pandas as pd\nfrom fastapi import UploadFile\nfrom fastapi.encoders import jsonable_encoder\n\nfrom langflow.api.v2.files import upload_user_file\nfrom langflow.custom import Component\nfrom langflow.io import DropdownInput, HandleInput, StrInput\nfrom langflow.schema import Data, DataFrame, Message\nfrom langflow.services.auth.utils import create_user_longterm_token\nfrom langflow.services.database.models.user.crud import get_user_by_id\nfrom langflow.services.deps import get_session, get_settings_service, get_storage_service\nfrom langflow.template.field.base import Output\n\n\nclass SaveToFileComponent(Component):\n    display_name = \"Save File\"\n    description = \"Save data to a local file in the selected format.\"\n    documentation: str = \"https://docs.langflow.org/components-processing#save-file\"\n    icon = \"save\"\n    name = \"SaveToFile\"\n\n    # File format options for different types\n    DATA_FORMAT_CHOICES = [\"csv\", \"excel\", \"json\", \"markdown\"]\n    MESSAGE_FORMAT_CHOICES = [\"txt\", \"json\", \"markdown\"]\n\n    inputs = [\n        HandleInput(\n            name=\"input\",\n            display_name=\"Input\",\n            info=\"The input to save.\",\n            dynamic=True,\n            input_types=[\"Data\", \"DataFrame\", \"Message\"],\n            required=True,\n        ),\n        StrInput(\n            name=\"file_name\",\n            display_name=\"File Name\",\n            info=\"Name file will be saved as (without extension).\",\n            required=True,\n        ),\n        DropdownInput(\n            name=\"file_format\",\n            display_name=\"File Format\",\n            options=list(dict.fromkeys(DATA_FORMAT_CHOICES + MESSAGE_FORMAT_CHOICES)),\n            info=\"Select the file format to save the input. If not provided, the default format will be used.\",\n            value=\"\",\n            advanced=True,\n        ),\n    ]\n\n    outputs = [Output(display_name=\"File Path\", name=\"result\", method=\"save_to_file\")]\n\n    async def save_to_file(self) -> Message:\n        \"\"\"Save the input to a file and upload it, returning a confirmation message.\"\"\"\n        # Validate inputs\n        if not self.file_name:\n            msg = \"File name must be provided.\"\n            raise ValueError(msg)\n        if not self._get_input_type():\n            msg = \"Input type is not set.\"\n            raise ValueError(msg)\n\n        # Validate file format based on input type\n        file_format = self.file_format or self._get_default_format()\n        allowed_formats = (\n            self.MESSAGE_FORMAT_CHOICES if self._get_input_type() == \"Message\" else self.DATA_FORMAT_CHOICES\n        )\n        if file_format not in allowed_formats:\n            msg = f\"Invalid file format '{file_format}' for {self._get_input_type()}. Allowed: {allowed_formats}\"\n            raise ValueError(msg)\n\n        # Prepare file path\n        file_path = Path(self.file_name).expanduser()\n        if not file_path.parent.exists():\n            file_path.parent.mkdir(parents=True, exist_ok=True)\n        file_path = self._adjust_file_path_with_format(file_path, file_format)\n\n        # Save the input to file based on type\n        if self._get_input_type() == \"DataFrame\":\n            confirmation = self._save_dataframe(self.input, file_path, file_format)\n        elif self._get_input_type() == \"Data\":\n            confirmation = self._save_data(self.input, file_path, file_format)\n        elif self._get_input_type() == \"Message\":\n            confirmation = await self._save_message(self.input, file_path, file_format)\n        else:\n            msg = f\"Unsupported input type: {self._get_input_type()}\"\n            raise ValueError(msg)\n\n        # Upload the saved file\n        await self._upload_file(file_path)\n\n        # Return the final file path and confirmation message\n        final_path = Path.cwd() / file_path if not file_path.is_absolute() else file_path\n\n        return Message(text=f\"{confirmation} at {final_path}\")\n\n    def _get_input_type(self) -> str:\n        \"\"\"Determine the input type based on the provided input.\"\"\"\n        # Use exact type checking (type() is) instead of isinstance() to avoid inheritance issues.\n        # Since Message inherits from Data, isinstance(message, Data) would return True for Message objects,\n        # causing Message inputs to be incorrectly identified as Data type.\n        if type(self.input) is DataFrame:\n            return \"DataFrame\"\n        if type(self.input) is Message:\n            return \"Message\"\n        if type(self.input) is Data:\n            return \"Data\"\n        msg = f\"Unsupported input type: {type(self.input)}\"\n        raise ValueError(msg)\n\n    def _get_default_format(self) -> str:\n        \"\"\"Return the default file format based on input type.\"\"\"\n        if self._get_input_type() == \"DataFrame\":\n            return \"csv\"\n        if self._get_input_type() == \"Data\":\n            return \"json\"\n        if self._get_input_type() == \"Message\":\n            return \"json\"\n        return \"json\"  # Fallback\n\n    def _adjust_file_path_with_format(self, path: Path, fmt: str) -> Path:\n        \"\"\"Adjust the file path to include the correct extension.\"\"\"\n        file_extension = path.suffix.lower().lstrip(\".\")\n        if fmt == \"excel\":\n            return Path(f\"{path}.xlsx\").expanduser() if file_extension not in [\"xlsx\", \"xls\"] else path\n        return Path(f\"{path}.{fmt}\").expanduser() if file_extension != fmt else path\n\n    async def _upload_file(self, file_path: Path) -> None:\n        \"\"\"Upload the saved file using the upload_user_file service.\"\"\"\n        if not file_path.exists():\n            msg = f\"File not found: {file_path}\"\n            raise FileNotFoundError(msg)\n\n        with file_path.open(\"rb\") as f:\n            async for db in get_session():\n                user_id, _ = await create_user_longterm_token(db)\n                current_user = await get_user_by_id(db, user_id)\n\n                await upload_user_file(\n                    file=UploadFile(filename=file_path.name, file=f, size=file_path.stat().st_size),\n                    session=db,\n                    current_user=current_user,\n                    storage_service=get_storage_service(),\n                    settings_service=get_settings_service(),\n                )\n\n    def _save_dataframe(self, dataframe: DataFrame, path: Path, fmt: str) -> str:\n        \"\"\"Save a DataFrame to the specified file format.\"\"\"\n        if fmt == \"csv\":\n            dataframe.to_csv(path, index=False)\n        elif fmt == \"excel\":\n            dataframe.to_excel(path, index=False, engine=\"openpyxl\")\n        elif fmt == \"json\":\n            dataframe.to_json(path, orient=\"records\", indent=2)\n        elif fmt == \"markdown\":\n            path.write_text(dataframe.to_markdown(index=False), encoding=\"utf-8\")\n        else:\n            msg = f\"Unsupported DataFrame format: {fmt}\"\n            raise ValueError(msg)\n        return f\"DataFrame saved successfully as '{path}'\"\n\n    def _save_data(self, data: Data, path: Path, fmt: str) -> str:\n        \"\"\"Save a Data object to the specified file format.\"\"\"\n        if fmt == \"csv\":\n            pd.DataFrame(data.data).to_csv(path, index=False)\n        elif fmt == \"excel\":\n            pd.DataFrame(data.data).to_excel(path, index=False, engine=\"openpyxl\")\n        elif fmt == \"json\":\n            path.write_text(\n                orjson.dumps(jsonable_encoder(data.data), option=orjson.OPT_INDENT_2).decode(\"utf-8\"), encoding=\"utf-8\"\n            )\n        elif fmt == \"markdown\":\n            path.write_text(pd.DataFrame(data.data).to_markdown(index=False), encoding=\"utf-8\")\n        else:\n            msg = f\"Unsupported Data format: {fmt}\"\n            raise ValueError(msg)\n        return f\"Data saved successfully as '{path}'\"\n\n    async def _save_message(self, message: Message, path: Path, fmt: str) -> str:\n        \"\"\"Save a Message to the specified file format, handling async iterators.\"\"\"\n        content = \"\"\n        if message.text is None:\n            content = \"\"\n        elif isinstance(message.text, AsyncIterator):\n            async for item in message.text:\n                content += str(item) + \" \"\n            content = content.strip()\n        elif isinstance(message.text, Iterator):\n            content = \" \".join(str(item) for item in message.text)\n        else:\n            content = str(message.text)\n\n        if fmt == \"txt\":\n            path.write_text(content, encoding=\"utf-8\")\n        elif fmt == \"json\":\n            path.write_text(json.dumps({\"message\": content}, indent=2), encoding=\"utf-8\")\n        elif fmt == \"markdown\":\n            path.write_text(f\"**Message:**\\n\\n{content}\", encoding=\"utf-8\")\n        else:\n            msg = f\"Unsupported Message format: {fmt}\"\n            raise ValueError(msg)\n        return f\"Message saved successfully as '{path}'\"\n"
+              },
+              "file_format": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "File Format",
+                "dynamic": false,
+                "info": "Select the file format to save the input. If not provided, the default format will be used.",
+                "name": "file_format",
+                "options": [
+                  "csv",
+                  "excel",
+                  "json",
+                  "markdown",
+                  "txt"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "txt"
+              },
+              "file_name": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "File Name",
+                "dynamic": false,
+                "info": "Name file will be saved as (without extension).",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": true,
+                "name": "file_name",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "OUTPUT_FOLDER_PATH_TEXT"
+              },
+              "input": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Input",
+                "dynamic": true,
+                "info": "The input to save.",
+                "input_types": [
+                  "Data",
+                  "DataFrame",
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "input",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "SaveToFile"
+        },
+        "dragging": false,
+        "id": "SaveToFile-zJLTt",
+        "measured": {
+          "height": 331,
+          "width": 320
+        },
+        "position": {
+          "x": 1051.3999432455591,
+          "y": -1065.3256579470972
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "Directory-MIIqy",
+          "node": {
+            "base_classes": [
+              "DataFrame"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Recursively load files from a directory.",
+            "display_name": "Directory",
+            "documentation": "https://docs.langflow.org/components-data#directory",
+            "edited": false,
+            "field_order": [
+              "path",
+              "types",
+              "depth",
+              "max_concurrency",
+              "load_hidden",
+              "recursive",
+              "silent_errors",
+              "use_multithreading"
+            ],
+            "frozen": false,
+            "icon": "folder",
+            "legacy": false,
+            "lf_version": "1.5.0",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Loaded Files",
+                "group_outputs": false,
+                "hidden": null,
+                "method": "as_dataframe",
+                "name": "dataframe",
+                "options": null,
+                "required_inputs": null,
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.data.utils import TEXT_FILE_TYPES, parallel_load_data, parse_text_file_to_data, retrieve_file_paths\nfrom langflow.custom.custom_component.component import Component\nfrom langflow.io import BoolInput, IntInput, MessageTextInput, MultiselectInput\nfrom langflow.schema.data import Data\nfrom langflow.schema.dataframe import DataFrame\nfrom langflow.template.field.base import Output\n\n\nclass DirectoryComponent(Component):\n    display_name = \"Directory\"\n    description = \"Recursively load files from a directory.\"\n    documentation: str = \"https://docs.langflow.org/components-data#directory\"\n    icon = \"folder\"\n    name = \"Directory\"\n\n    inputs = [\n        MessageTextInput(\n            name=\"path\",\n            display_name=\"Path\",\n            info=\"Path to the directory to load files from. Defaults to current directory ('.')\",\n            value=\".\",\n            tool_mode=True,\n        ),\n        MultiselectInput(\n            name=\"types\",\n            display_name=\"File Types\",\n            info=\"File types to load. Select one or more types or leave empty to load all supported types.\",\n            options=TEXT_FILE_TYPES,\n            value=[],\n        ),\n        IntInput(\n            name=\"depth\",\n            display_name=\"Depth\",\n            info=\"Depth to search for files.\",\n            value=0,\n        ),\n        IntInput(\n            name=\"max_concurrency\",\n            display_name=\"Max Concurrency\",\n            advanced=True,\n            info=\"Maximum concurrency for loading files.\",\n            value=2,\n        ),\n        BoolInput(\n            name=\"load_hidden\",\n            display_name=\"Load Hidden\",\n            advanced=True,\n            info=\"If true, hidden files will be loaded.\",\n        ),\n        BoolInput(\n            name=\"recursive\",\n            display_name=\"Recursive\",\n            advanced=True,\n            info=\"If true, the search will be recursive.\",\n        ),\n        BoolInput(\n            name=\"silent_errors\",\n            display_name=\"Silent Errors\",\n            advanced=True,\n            info=\"If true, errors will not raise an exception.\",\n        ),\n        BoolInput(\n            name=\"use_multithreading\",\n            display_name=\"Use Multithreading\",\n            advanced=True,\n            info=\"If true, multithreading will be used.\",\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Loaded Files\", name=\"dataframe\", method=\"as_dataframe\"),\n    ]\n\n    def load_directory(self) -> list[Data]:\n        path = self.path\n        types = self.types\n        depth = self.depth\n        max_concurrency = self.max_concurrency\n        load_hidden = self.load_hidden\n        recursive = self.recursive\n        silent_errors = self.silent_errors\n        use_multithreading = self.use_multithreading\n\n        resolved_path = self.resolve_path(path)\n\n        # If no types are specified, use all supported types\n        if not types:\n            types = TEXT_FILE_TYPES\n\n        # Check if all specified types are valid\n        invalid_types = [t for t in types if t not in TEXT_FILE_TYPES]\n        if invalid_types:\n            msg = f\"Invalid file types specified: {invalid_types}. Valid types are: {TEXT_FILE_TYPES}\"\n            raise ValueError(msg)\n\n        valid_types = types\n\n        file_paths = retrieve_file_paths(\n            resolved_path, load_hidden=load_hidden, recursive=recursive, depth=depth, types=valid_types\n        )\n\n        loaded_data = []\n        if use_multithreading:\n            loaded_data = parallel_load_data(file_paths, silent_errors=silent_errors, max_concurrency=max_concurrency)\n        else:\n            loaded_data = [parse_text_file_to_data(file_path, silent_errors=silent_errors) for file_path in file_paths]\n\n        valid_data = [x for x in loaded_data if x is not None and isinstance(x, Data)]\n        self.status = valid_data\n        return valid_data\n\n    def as_dataframe(self) -> DataFrame:\n        return DataFrame(self.load_directory())\n"
+              },
+              "depth": {
+                "_input_type": "IntInput",
+                "advanced": false,
+                "display_name": "Depth",
+                "dynamic": false,
+                "info": "Depth to search for files.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "depth",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 0
+              },
+              "load_hidden": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Load Hidden",
+                "dynamic": false,
+                "info": "If true, hidden files will be loaded.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "load_hidden",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "max_concurrency": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Concurrency",
+                "dynamic": false,
+                "info": "Maximum concurrency for loading files.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_concurrency",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 2
+              },
+              "path": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Path",
+                "dynamic": false,
+                "info": "Path to the directory to load files from. Defaults to current directory ('.')",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": true,
+                "name": "path",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "FOLDER_PATH_TEXT"
+              },
+              "recursive": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Recursive",
+                "dynamic": false,
+                "info": "If true, the search will be recursive.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "recursive",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "silent_errors": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Silent Errors",
+                "dynamic": false,
+                "info": "If true, errors will not raise an exception.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "silent_errors",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "types": {
+                "_input_type": "MultiselectInput",
+                "advanced": false,
+                "combobox": false,
+                "display_name": "File Types",
+                "dynamic": false,
+                "info": "File types to load. Select one or more types or leave empty to load all supported types.",
+                "list": true,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "types",
+                "options": [
+                  "txt",
+                  "md",
+                  "mdx",
+                  "csv",
+                  "json",
+                  "yaml",
+                  "yml",
+                  "xml",
+                  "html",
+                  "htm",
+                  "pdf",
+                  "docx",
+                  "py",
+                  "sh",
+                  "sql",
+                  "js",
+                  "ts",
+                  "tsx"
+                ],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": [
+                  "txt"
+                ]
+              },
+              "use_multithreading": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Use Multithreading",
+                "dynamic": false,
+                "info": "If true, multithreading will be used.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "use_multithreading",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "Directory"
+        },
+        "dragging": false,
+        "id": "Directory-MIIqy",
+        "measured": {
+          "height": 369,
+          "width": 320
+        },
+        "position": {
+          "x": -1053.2646298486902,
+          "y": -1655.440891675919
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ChatOutput-itP9P",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Display a chat message in the Playground.",
+            "display_name": "Chat Output",
+            "documentation": "https://docs.langflow.org/components-io#chat-output",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "should_store_message",
+              "sender",
+              "sender_name",
+              "session_id",
+              "data_template",
+              "background_color",
+              "chat_icon",
+              "text_color",
+              "clean_data"
+            ],
+            "frozen": false,
+            "icon": "MessagesSquare",
+            "legacy": false,
+            "lf_version": "1.5.0",
+            "metadata": {},
+            "minimized": true,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Message",
+                "group_outputs": false,
+                "method": "message_response",
+                "name": "message",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "background_color": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Background Color",
+                "dynamic": false,
+                "info": "The background color of the icon.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "background_color",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "chat_icon": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Icon",
+                "dynamic": false,
+                "info": "The icon of the message.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "chat_icon",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "clean_data": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Basic Clean Data",
+                "dynamic": false,
+                "info": "Whether to clean the data",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "clean_data",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from collections.abc import Generator\nfrom typing import Any\n\nimport orjson\nfrom fastapi.encoders import jsonable_encoder\n\nfrom langflow.base.io.chat import ChatComponent\nfrom langflow.helpers.data import safe_convert\nfrom langflow.inputs.inputs import BoolInput, DropdownInput, HandleInput, MessageTextInput\nfrom langflow.schema.data import Data\nfrom langflow.schema.dataframe import DataFrame\nfrom langflow.schema.message import Message\nfrom langflow.schema.properties import Source\nfrom langflow.template.field.base import Output\nfrom langflow.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_AI,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatOutput(ChatComponent):\n    display_name = \"Chat Output\"\n    description = \"Display a chat message in the Playground.\"\n    documentation: str = \"https://docs.langflow.org/components-io#chat-output\"\n    icon = \"MessagesSquare\"\n    name = \"ChatOutput\"\n    minimized = True\n\n    inputs = [\n        HandleInput(\n            name=\"input_value\",\n            display_name=\"Inputs\",\n            info=\"Message to be passed as output.\",\n            input_types=[\"Data\", \"DataFrame\", \"Message\"],\n            required=True,\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_AI,\n            advanced=True,\n            info=\"Type of sender.\",\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_AI,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"data_template\",\n            display_name=\"Data Template\",\n            value=\"{text}\",\n            advanced=True,\n            info=\"Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.\",\n        ),\n        MessageTextInput(\n            name=\"background_color\",\n            display_name=\"Background Color\",\n            info=\"The background color of the icon.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"chat_icon\",\n            display_name=\"Icon\",\n            info=\"The icon of the message.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"text_color\",\n            display_name=\"Text Color\",\n            info=\"The text color of the name\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"clean_data\",\n            display_name=\"Basic Clean Data\",\n            value=True,\n            info=\"Whether to clean the data\",\n            advanced=True,\n        ),\n    ]\n    outputs = [\n        Output(\n            display_name=\"Output Message\",\n            name=\"message\",\n            method=\"message_response\",\n        ),\n    ]\n\n    def _build_source(self, id_: str | None, display_name: str | None, source: str | None) -> Source:\n        source_dict = {}\n        if id_:\n            source_dict[\"id\"] = id_\n        if display_name:\n            source_dict[\"display_name\"] = display_name\n        if source:\n            # Handle case where source is a ChatOpenAI object\n            if hasattr(source, \"model_name\"):\n                source_dict[\"source\"] = source.model_name\n            elif hasattr(source, \"model\"):\n                source_dict[\"source\"] = str(source.model)\n            else:\n                source_dict[\"source\"] = str(source)\n        return Source(**source_dict)\n\n    async def message_response(self) -> Message:\n        # First convert the input to string if needed\n        text = self.convert_to_string()\n\n        # Get source properties\n        source, icon, display_name, source_id = self.get_properties_from_source_component()\n        background_color = self.background_color\n        text_color = self.text_color\n        if self.chat_icon:\n            icon = self.chat_icon\n\n        # Create or use existing Message object\n        if isinstance(self.input_value, Message):\n            message = self.input_value\n            # Update message properties\n            message.text = text\n        else:\n            message = Message(text=text)\n\n        # Set message properties\n        message.sender = self.sender\n        message.sender_name = self.sender_name\n        message.session_id = self.session_id\n        message.flow_id = self.graph.flow_id if hasattr(self, \"graph\") else None\n        message.properties.source = self._build_source(source_id, display_name, source)\n        message.properties.icon = icon\n        message.properties.background_color = background_color\n        message.properties.text_color = text_color\n\n        # Store message if needed\n        if self.session_id and self.should_store_message:\n            stored_message = await self.send_message(message)\n            self.message.value = stored_message\n            message = stored_message\n\n        self.status = message\n        return message\n\n    def _serialize_data(self, data: Data) -> str:\n        \"\"\"Serialize Data object to JSON string.\"\"\"\n        # Convert data.data to JSON-serializable format\n        serializable_data = jsonable_encoder(data.data)\n        # Serialize with orjson, enabling pretty printing with indentation\n        json_bytes = orjson.dumps(serializable_data, option=orjson.OPT_INDENT_2)\n        # Convert bytes to string and wrap in Markdown code blocks\n        return \"```json\\n\" + json_bytes.decode(\"utf-8\") + \"\\n```\"\n\n    def _validate_input(self) -> None:\n        \"\"\"Validate the input data and raise ValueError if invalid.\"\"\"\n        if self.input_value is None:\n            msg = \"Input data cannot be None\"\n            raise ValueError(msg)\n        if isinstance(self.input_value, list) and not all(\n            isinstance(item, Message | Data | DataFrame | str) for item in self.input_value\n        ):\n            invalid_types = [\n                type(item).__name__\n                for item in self.input_value\n                if not isinstance(item, Message | Data | DataFrame | str)\n            ]\n            msg = f\"Expected Data or DataFrame or Message or str, got {invalid_types}\"\n            raise TypeError(msg)\n        if not isinstance(\n            self.input_value,\n            Message | Data | DataFrame | str | list | Generator | type(None),\n        ):\n            type_name = type(self.input_value).__name__\n            msg = f\"Expected Data or DataFrame or Message or str, Generator or None, got {type_name}\"\n            raise TypeError(msg)\n\n    def convert_to_string(self) -> str | Generator[Any, None, None]:\n        \"\"\"Convert input data to string with proper error handling.\"\"\"\n        self._validate_input()\n        if isinstance(self.input_value, list):\n            return \"\\n\".join([safe_convert(item, clean_data=self.clean_data) for item in self.input_value])\n        if isinstance(self.input_value, Generator):\n            return self.input_value\n        return safe_convert(self.input_value)\n"
+              },
+              "data_template": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Data Template",
+                "dynamic": false,
+                "info": "Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "data_template",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "{text}"
+              },
+              "input_value": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Inputs",
+                "dynamic": false,
+                "info": "Message to be passed as output.",
+                "input_types": [
+                  "Data",
+                  "DataFrame",
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "input_value",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "sender": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Sender Type",
+                "dynamic": false,
+                "info": "Type of sender.",
+                "name": "sender",
+                "options": [
+                  "Machine",
+                  "User"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "Machine"
+              },
+              "sender_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Sender Name",
+                "dynamic": false,
+                "info": "Name of the sender.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sender_name",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "AI"
+              },
+              "session_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Session ID",
+                "dynamic": false,
+                "info": "The session ID of the chat. If empty, the current session ID parameter will be used.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "session_id",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "should_store_message": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Store Messages",
+                "dynamic": false,
+                "info": "Store the message in the history.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "should_store_message",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "text_color": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Text Color",
+                "dynamic": false,
+                "info": "The text color of the name",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "text_color",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": false,
+          "type": "ChatOutput"
+        },
+        "id": "ChatOutput-itP9P",
+        "measured": {
+          "height": 48,
+          "width": 192
+        },
+        "position": {
+          "x": -656.1019576991068,
+          "y": -1602.1829791503878
+        },
+        "selected": false,
+        "type": "genericNode"
+      }
+    ],
+    "viewport": {
+      "x": 593.8987554887898,
+      "y": 810.5774683647015,
+      "zoom": 0.430686884859639
+    }
+  },
+  "description": "Use Granite-4x-Mini for the QC Checking ",
+  "endpoint_name": null,
+  "id": "8aa73e7f-092a-4d03-8b3a-96f9caeca49e",
+  "is_component": false,
+  "last_tested_version": "1.5.0",
+  "name": "QC Audit Agent - Granite Model",
+  "tags": []
+}
